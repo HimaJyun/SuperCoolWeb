@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*! 伝える事に言葉以外の物は不要！ */
+@import "_reset.scss";
+
+// footerを最下部に固定
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+// ヘッダーとフッターの中央ぞろえ
+header,footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+// サイズ調整
+header {
+	margin-top: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+footer {
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+main {
+	max-width: 72rem;
+	align-self: center;
+}
+
+// 過剰装飾
+#sitename {
+	color: $font-color;
+	text-decoration: none;
+
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+
+article,aside {
+	padding: 0 1rem;
+	@include only-sp {
+		font-size: 1.6rem;
+	}// 要るかな？
+}
+
+// 過剰装飾-記事
+article h1 {
+	font-size: 2rem;
+}
+
+article p {
+	margin: 1em 0;
+}
+
+// 過剰装飾-サイドバー
+aside {
+	border-top: 0.1rem solid #eee;
+}
+
+aside div {
+	margin: 1.5rem 0;
+}
+
+.aside-title {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+aside div p {
+	margin: 1em 0;
+}
+
+.aside-title + p {
+	margin: 0;
+}
+
+aside div ul li {
+	list-style: none;
+	margin: 0.5em 0;
+}
