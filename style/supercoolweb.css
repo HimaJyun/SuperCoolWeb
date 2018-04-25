@@ -136,3 +136,6 @@ aside div p {
 aside div ul li {
   list-style: none;
   margin: 0.5em 0; }
+
+footer a:not(:hover):visited {
+  color: #005ead; }

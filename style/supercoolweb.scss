@@ -86,3 +86,8 @@ aside div ul li {
 	list-style: none;
 	margin: 0.5em 0;
 }
+
+// 過剰装飾-footer
+footer a:not(:hover):visited {
+	color: $anchor-color;
+}
