@@ -5,10 +5,11 @@
 body {
 	display: flex;
 	flex-direction: column;
+	min-height: 100%;
 }
 
-main {
-	flex-grow: 1;
+footer {
+	margin-top: auto;
 }
 
 // ヘッダーとフッターの中央ぞろえ
@@ -20,18 +21,22 @@ header,footer {
 
 // サイズ調整
 header {
-	margin-top: 0.5rem;
-	margin-bottom: 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 2rem;
 }
 
 footer {
-	margin-top: 2rem;
-	margin-bottom: 0.5rem;
+	padding-top: 2rem;
+	padding-bottom: 0.5rem;
 }
 
 main {
-	max-width: 72rem;
 	align-self: center;
+	max-width: 100%;
+}
+
+#wrapper {
+	max-width: 72rem;
 }
 
 // 過剰装飾
