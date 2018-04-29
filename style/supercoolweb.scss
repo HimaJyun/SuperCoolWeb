@@ -57,14 +57,17 @@ article,aside {
 
 // 過剰装飾-記事
 article {
-	h1 {
-		font-size: 2rem;
+	h1,h2,h3,h4,h5,h6 {
+		margin-bottom: 0.8em;
 	}
-	p {
-		margin: 1em 0;
+	p,ul,dl {
+		margin-bottom: 1em;
 	}
-	li {
-		margin-left: 1.5em;
+	ul {
+		padding-left: 1.5em;
+		li {
+			margin-bottom: 0.5em;
+		}
 	}
 	dl {
 		dt {
