@@ -60,7 +60,7 @@ article {
 	h1,h2,h3,h4,h5,h6 {
 		margin-bottom: 0.8em;
 	}
-	p,ul,ol,dl {
+	p,ul,ol,dl,pre {
 		margin-bottom: 1em;
 	}
 	ul,ol {
@@ -76,6 +76,17 @@ article {
 		dd {
 			margin-left: 1.5em;
 		}
+	}
+	code {
+		padding: 0 0.2em;
+		border-radius: 0.2em;
+		background-color: #f3f3f3;
+	}
+	pre code {
+		display: block;
+		padding: 0.5em;
+		background-color: #222;
+		color: #eee;
 	}
 }
 

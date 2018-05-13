@@ -52,7 +52,12 @@ header, nav, main, article, aside, section, footer {
     display: block;
 }
 
-pre {
+code {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+pre, pre code {
     font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
 }
 
