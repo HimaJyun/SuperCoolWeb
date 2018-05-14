@@ -60,7 +60,7 @@ article {
 	h1,h2,h3,h4,h5,h6 {
 		margin-bottom: 0.8em;
 	}
-	p,ul,ol,dl,pre {
+	p,ul,ol,dl,pre,blockquote {
 		margin-bottom: 1em;
 	}
 	ul,ol {
@@ -79,7 +79,7 @@ article {
 	}
 	code {
 		padding: 0 0.2em;
-		border-radius: 0.2em;
+		border-radius: 0.3rem;
 		background-color: #f3f3f3;
 	}
 	pre code {
@@ -87,6 +87,11 @@ article {
 		padding: 0.5em;
 		background-color: #222;
 		color: #eee;
+	}
+	blockquote {
+		border: 0.1rem solid #ccc;
+		padding: 0.5em;
+		border-radius: 0.3rem;
 	}
 }
 
